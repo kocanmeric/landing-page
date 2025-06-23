@@ -42,7 +42,7 @@ header a {
     text-decoration: none;
 }
 
-/* Main */
+/* Hero */
 main {
     width: 100%;
 }
@@ -80,7 +80,7 @@ main {
     height: auto;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     width: 200px;
     height: 50px;
@@ -88,4 +88,110 @@ button {
     border-radius: 5px;
     font-size: 18px;
     color: #F9FAF8;
+}
+
+/* Info Section */
+
+.info {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.info-img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Quotes Section */
+
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    text-align: right;
+}
+
+.quote-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+/* Call to Action Section */
+
+.call-to-action {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.cta-container {
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6 ;
+    border-radius: 20px;
+}
+
+.cta-container h2 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.cta-container p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.join-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 200px;
+    height: 50px;
+    border: white solid;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #1F2937;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #E5E7EB;
+    font-size: 16px;
 }
